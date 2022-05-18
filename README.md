@@ -16,9 +16,9 @@ instructions-
 
 /server  
 1. index.js- 
-    creates 3 different accounts with a public key, private key (using noble-secp256k library https://github.com/paulmillr/noble-secp256k1) and a balance
-    console logs the different public keys, private keys and respective balances
-    when a user enters transaction info (sender, recipient, amount) clicks on "Send Amount"-
+    creates 3 different accounts with a public key, private key (using noble-secp256k library https://github.com/paulmillr/noble-secp256k1) and a balance.
+    console logs the different public keys, private keys and respective balances.
+    when a user enters transaction info (sender, recipient, amount) clicks on "Send Amount" =>
         signAndVerify() creates a digital signature with the SHA256 hash of the transaction info and the senders private key, then verifies the transaction using secp256
-        if verification is successful, transaction goes through and changes the respective account balances
-        change balance in the front-end
+        => if verification is successful, transaction goes through and changes the respective account balances
+        => change balance in the front-end
