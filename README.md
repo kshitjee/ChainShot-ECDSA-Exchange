@@ -1,4 +1,5 @@
 PROJECT DESCRIPTION
+
 This project is simple exchange that verifies transactions using digital signatures and asymmetric cryptography (public and private keys). 
 I completed it in Week 1 of the ChainShot Bootcamp I did (04/25/2022 - 06/30/2022), after learning about Cryptographic Hashes, Digital Signatures (RSA and ECDSA), 
 Public Key Cryptography, Mining/PoW and the Blockchain Data Structure. 
